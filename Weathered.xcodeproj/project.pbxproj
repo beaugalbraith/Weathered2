@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B62CAAA61F156A3100CCDA29 /* QuitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62CAAA51F156A3100CCDA29 /* QuitVC.swift */; };
 		B6C7D5DB1F0EBD2D00CCDA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7D5DA1F0EBD2D00CCDA29 /* AppDelegate.swift */; };
-		B6C7D5DD1F0EBD2D00CCDA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7D5DC1F0EBD2D00CCDA29 /* ViewController.swift */; };
+		B6C7D5DD1F0EBD2D00CCDA29 /* WeatheredVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7D5DC1F0EBD2D00CCDA29 /* WeatheredVC.swift */; };
 		B6C7D5DF1F0EBD2D00CCDA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C7D5DE1F0EBD2D00CCDA29 /* Assets.xcassets */; };
 		B6C7D5E21F0EBD2D00CCDA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C7D5E01F0EBD2D00CCDA29 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B62CAAA51F156A3100CCDA29 /* QuitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuitVC.swift; sourceTree = "<group>"; };
 		B6C7D5D71F0EBD2D00CCDA29 /* Weathered.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weathered.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C7D5DA1F0EBD2D00CCDA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6C7D5DC1F0EBD2D00CCDA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6C7D5DC1F0EBD2D00CCDA29 /* WeatheredVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatheredVC.swift; sourceTree = "<group>"; };
 		B6C7D5DE1F0EBD2D00CCDA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C7D5E11F0EBD2D00CCDA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6C7D5E31F0EBD2D00CCDA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,11 +56,12 @@
 			isa = PBXGroup;
 			children = (
 				B6C7D5DA1F0EBD2D00CCDA29 /* AppDelegate.swift */,
-				B6C7D5DC1F0EBD2D00CCDA29 /* ViewController.swift */,
+				B6C7D5DC1F0EBD2D00CCDA29 /* WeatheredVC.swift */,
 				B6C7D5DE1F0EBD2D00CCDA29 /* Assets.xcassets */,
 				B6C7D5E01F0EBD2D00CCDA29 /* Main.storyboard */,
 				B6C7D5E31F0EBD2D00CCDA29 /* Info.plist */,
 				B6C7D5E41F0EBD2D00CCDA29 /* Weathered.entitlements */,
+				B62CAAA51F156A3100CCDA29 /* QuitVC.swift */,
 			);
 			path = Weathered;
 			sourceTree = "<group>";
@@ -133,7 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6C7D5DD1F0EBD2D00CCDA29 /* ViewController.swift in Sources */,
+				B6C7D5DD1F0EBD2D00CCDA29 /* WeatheredVC.swift in Sources */,
+				B62CAAA61F156A3100CCDA29 /* QuitVC.swift in Sources */,
 				B6C7D5DB1F0EBD2D00CCDA29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +307,7 @@
 				B6C7D5E91F0EBD2D00CCDA29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
